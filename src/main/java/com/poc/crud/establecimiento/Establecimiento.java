@@ -45,7 +45,7 @@ public class Establecimiento {
     }
 
     public void setNombre(String nombre) {
-        this nadie = nombre;
+        this.nombre = nombre;
     }
 
     public String getDistrito() {
