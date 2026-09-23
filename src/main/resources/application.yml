@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    url: ${DB_URL:jdbc:postgresql://localhost:5432/crud}
+    username: ${DB_USER:crud}
+    password: ${DB_PASSWORD:crud}
+  jpa:
+    hibernate:
+      ddl-auto: update
+    open-in-view: false
